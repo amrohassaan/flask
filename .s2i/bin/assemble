@@ -1,0 +1,8 @@
+# Inside .s2i/bin/assemble
+#!/bin/bash
+
+# Call default assemble script
+source /usr/libexec/s2i/assemble
+
+# Ensure start.sh is executable
+chmod +x /opt/app-root/src/start.sh
