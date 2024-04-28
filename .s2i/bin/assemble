@@ -6,3 +6,6 @@ source /usr/libexec/s2i/assemble
 
 # Ensure start.sh is executable
 chmod +x /opt/app-root/src/start.sh
+
+echo "Permissions for start.sh:"
+ls -l /opt/app-root/src/start.sh
